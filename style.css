@@ -1,3 +1,14 @@
 * {
   background-color: #D3D3D3;
 }
+/*navigation buttons*/
+li {
+  list-style: none;
+  display: inline;
+}
+
+.scrollpic {
+  display: inline-block;
+  height: 10em;
+  width: 10em;
+}
