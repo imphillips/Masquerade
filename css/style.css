@@ -1,6 +1,11 @@
-* {
-  background-color: #D3D3D3;
+/*yellow #F7DC6F, BLUEGRAY #7F8C8D, LIGHT GRAY #D6DBDF, GREENISH #52BE80 */
+html {
+background-image: url("../img/swoop.jpg");
+background-position: center;
+background-size: auto;
+
 }
+
 /*navigation buttons*/
 li {
   list-style: none;
