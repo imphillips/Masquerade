@@ -1,15 +1,28 @@
 /*yellow #F7DC6F, BLUEGRAY #7F8C8D, LIGHT GRAY #D6DBDF, GREENISH #52BE80 */
 html {
 background-image: url("../img/swoop.jpg");
-background-position: center;
-background-size: auto;
+background-size: cover;
 
 }
 
 /*navigation buttons*/
+
+.main-header {
+color: white;
+font-size: 60px;
+margin-right: 25%;
+margin-left: 25%;
+text-align: center;
+}
+
+.container {
+  font-family: Verdana;
+  color: #D6DBDF;
+  }
+
 li {
-  list-style: none;
-  display: inline;
+list-style-type: none;
+
 }
 
 .scrollpic {
@@ -17,3 +30,7 @@ li {
   height: 10em;
   width: 10em;
 }
+
+
+
+/*media queries*/
