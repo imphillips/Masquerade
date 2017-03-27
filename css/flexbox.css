@@ -1,7 +1,0 @@
-/*flex box picture scrolling*/
-
-.container {
-display: flex;
-flex-direction: row;
-flex-basis: auto;
-}

@@ -1,11 +1,13 @@
 /*yellow #F7DC6F, BLUEGRAY #7F8C8D, LIGHT GRAY #D6DBDF, GREENISH #52BE80 */
+/*overall background*/
 html {
 background-image: url("../img/swoop.jpg");
 background-size: cover;
 
+
 }
 
-/*navigation buttons*/
+/*Header*/
 
 .main-header {
 color: white;
@@ -15,22 +17,74 @@ margin-left: 25%;
 text-align: center;
 }
 
-.container {
-  font-family: Verdana;
-  color: #D6DBDF;
-  }
+/*navigation links*/
 
-li {
-list-style-type: none;
-
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
 
+
+.topselect {
+  color: #D6DBDF;
+  flex-direction: row;
+  justify-content: center;
+  flex-basis: auto;
+  text-decoration: none;
+  margin: 20px;
+}
+
+/*scrolling pictures*/
+
 .scrollpic {
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: wrap;
   height: 10em;
   width: 10em;
 }
 
+/*Content*/
 
+#title {
+color: #D6DBDF;
+text-align: center;
+font-size: 40px;
+line-height: 15px;
+}
+
+#info {
+  color: #D6DBDF;
+  text-align: center;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 10px;
+}
+
+
+
+/*partner links*/
+
+#sponsor {
+  color: #D6DBDF;
+  text-decoration-line: none;
+  list-style-type: none;
+}
+
+
+.copy {
+display: inline-flex;
+text-align: center;
+color:#D6DBDF;
+text-decoration: none;
+}
 
 /*media queries*/
+
+@media (min-width: 769px) {
+	.container {
+		width: 70%;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
