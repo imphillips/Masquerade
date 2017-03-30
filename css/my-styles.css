@@ -1,0 +1,77 @@
+
+
+/*layout*/
+body {
+  padding-top: 40px;
+  background-color: grey;
+}
+
+/*Header*/
+.main-header {
+color: white;
+font-size: 100px;
+margin-right: 25%;
+margin-left: 25%;
+text-align: center;
+}
+
+
+.container {
+  max-width: 1000px;
+}
+h1 {
+  text-align: center;
+  color: #D6DBDF;
+}
+
+h2 {
+  text-align: center;
+  color: #D6DBDF;
+}
+
+/*Media Queries*/
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*content*/
+
+.info {
+  color: #D6DBDF;
+  text-align: center;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 10px;
+}
+
+
+
+/*partner links*/
+
+.sponsort {
+  padding-left: 20px;
+}
+
+.sponsor {
+  color: #D6DBDF;
+  text-decoration-line: none;
+  list-style-type: none;
+}
+
+
+
+/*copy right*/
+.copy {
+text-align: center;
+color:#D6DBDF;

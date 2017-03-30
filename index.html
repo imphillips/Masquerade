@@ -2,61 +2,113 @@
 
 <html>
   <head>
+    <Title>TARC Metro United Way Masquerade Ball</title>
     <meta charset="utf-8">
-    <Title>TARC Metro United Way Masquerade</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+
   </head>
   <body>
-    <header>
-      <h1 class="main-header">Masquerade Ball<h1>
+              <!--Top navigation links-->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
 
-        <!--Top navigation links-->
-    <div class="wrap">
-      <nav>
-        <ul class="nav">
-            <li><a href="Ticket Information" class="topselect">Ticket Information</a></li>
-            <li><a href="Location Details" class="topselect">Location Details</a></li>
-            <li><a href="Attire" class="topselect">Attire ~ 1920's Formal</a></li>
-            <li><a href="MUW Committee" class="topselect">Metro United Way Committee</a></li>
-        </ul>
-      </nav>
-    </header>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-      <!--image scrolling banner-->
+            <a class="navbar-brand" href="#">Masquerade</a>
+            <div class="collapse navbar-collapse">
 
-      <div class="container">
-        <img class="scrollpic" src="img/banner pic 1.jpg" alt=""/>
-        <img class="scrollpic" src="img/banner pic 2.jpg" alt=""/>
-        <img class="scrollpic" src="img/banner pic 3.jpg" alt=""/>
-        <img class="scrollpic" src="img/banner pic 4.jpg" alt=""/>
-      </div>
+              <ul class="nav navbar-nav navbar-right">
+                 <li><a href="#" >Ticket Information</a></li>
+                  <li><a href="#">Location Details</a></li>
+                  <li><a href="#">Attire ~ 1920's Formal</a></li>
+                  <li><a href="#">Metro United Way Committee</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-      <div class="container">
-        <h1 id="title">Fundraising for Community Growth!</h1>
-          <p id="info">Join us for a magical night of dancing and glamour!  All while supporting a great cause.<br>
-          Set in the 1920's, the days of jazz and glitter, experience tasty eats, beautiful decore, and fancy outfits.<br></p>
 
-          <p id="info">Please Save the date for September 30, 2017 for the experience of your life.<br></p>
+          <!--image carousel-->
+          <div id="myCarousel" class="carousel slide jumbotron">
+            <div class="container">
+              <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/banner pic 1.jpg" alt=""/>
+                </div>
 
-          <p id="info">Location and ticket cost will be listed at a later date. In the mean time, please review the links below for more information on the 1920's</p>
-      </div>
-    </div>
+                <div class="item">
+                  <img src="img/banner pic 2.jpg" alt=""/>
+                </div>
+
+                <div class="item">
+                  <img src="img/banner pic 3.jpg" alt=""/>
+                </div>
+
+                <div class="item">
+                 <img src="img/banner pic 4.jpg" alt=""/>
+                </div>
+              </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="icon-next"></span>
+            </a>
+       </div>
+
+<!--content-->
+          <div>
+            <h1 class="display-1">Come to the Masquerade</h1>
+            <h2 class="display-2">Fundraising for Community Growth!</h2>
+              <p class="info">Join us for a magical night of dancing and glamour!  All while supporting a great cause.<br>
+              Set in the 1920's, the days of jazz and glitter, experience tasty eats, beautiful decore, and fancy outfits.<br></p>
+
+              <p class="info">Please Save the date for September 30, 2017 for the experience of your life.<br></p>
+
+              <p class="info">Location and ticket cost will be listed at a later date.</p>
+          </div>
+
 
 
 <!--Partnership links-->
     <footer>
+      <p class="sponsort">Our Sponsors</P>
       <div>
-          <ul id="sponsor">
-            <li><a href="https://metrounitedway.org/servlet/eAndar.article/342/Metro-United-Way-Online">Metro United Way</a></li>
-            <li><a href="https://www.ridetarc.org/">TARC</a></li>
-            <li><a href="http://www.firstgroupplc.com/">First Transit</a></li>
+          <ul>
+            <li class="sponsor"><a href="https://metrounitedway.org/servlet/eAndar.article/342/Metro-United-Way-Online">Metro United Way</a></li>
+            <li class="sponsor"><a href="https://www.ridetarc.org/">TARC</a></li>
+            <li class="sponsor"><a href="http://www.firstgroupplc.com/">First Transit</a></li>
           </ul>
       </div>
       <div>
-      <span class="copy">&copy; 2017 TARC Metro United Way Committee</span>
+      <p class="copy">&copy; 2017 TARC Metro United Way Committee</p>
       </div>
-
     </footer>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 
 </html>
