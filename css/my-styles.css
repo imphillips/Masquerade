@@ -21,7 +21,8 @@ text-align: center;
 }
 h1 {
   text-align: center;
-  color: #D6DBDF;
+  color: ##EBDEF0;
+
 }
 
 h2 {
@@ -63,12 +64,14 @@ No media query since this is the default in Bootstrap*/
   padding-left: 20px;
 }
 
-.sponsor {
+.sponsor a {
   color: #D6DBDF;
   text-decoration-line: none;
-  list-style-type: none;
 }
 
+.sponsorlist {
+  list-style: none;
+}
 
 
 /*copy right*/
